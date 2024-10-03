@@ -2,15 +2,6 @@
 
 Welcome to the Rock-Paper-Scissors game! This is a simple web-based game built using JavaScript, HTML, and CSS. Play against the computer and see if you can win!
 
-## Table of Contents
-- [Demo](#demo)
-- [Technologies Used](#technologies-used)
-- [How to Play](#how-to-play)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Demo
 
 ![Rock-Paper-Scissors Demo](link-to-your-demo-image)
