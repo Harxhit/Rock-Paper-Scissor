@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors Game
+# Rock Paper Scissors Game ✊✌️✋
 
 Welcome to the Rock-Paper-Scissors game! This is a simple web-based game built using JavaScript, HTML, and CSS. Play against the computer and see if you can win!
 
