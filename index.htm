@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper and Scissor Game</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+  <h1 class="title">Rock Paper and Scissor Game</h1>
+  <h2 class="js-h2">Rules:</h2>
+  <p class="js-p">Rock beats scissors, paper beats rock, and scissors beats paper. If both players make the same hand signal, it's a tie.</p>
+  
+  <div>
+    <button onclick="rock()" class="rock">Rock</button>
+    <button  onclick="paper()" class="paper">Paper</button>
+    <button   onclick="scissor()"  class="scissor">Scissor</button>
+  </div>
+  <div class="score-display">
+    <p class="js-score">Wins: 0, Loses: 0, Ties: 0</p> <!-- Score Display -->
+    <p class="js-moves">Computer Picked: </p> <!-- Computer Move Display -->
+    <p class="js-result">Result of the game is: </p> <!-- Result Display -->
+  </div>
+  <button onclick="reset()" class="reset">Reset Score</button>
+
+  <h2 class="h2">To see the full version click here ➡️</h2>
+  <button onclick="applyStyle()" class="click">Click Me</button> <!-- Call applyStyle() on click -->
+
+
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

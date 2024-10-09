@@ -1,0 +1,101 @@
+.styled-body {
+  background-color: #FFE1FF; /* Purple background color */
+  color: white; 
+  background: url(images/background1.jpg);
+}
+
+.styled-title {
+  font-family: Arial, sans-serif; /* Arial font */
+  text-align: center;
+  color: #006BFF; /* Light pink color for the title */
+  text-decoration: underline; /* Adds underline to h1 */
+}
+
+.styled-h2 {
+  color: #800000; /* Bold pink for the h2 header */
+}
+
+.styled-p {
+  color: #EF5A6F; /* Black color for paragraph text */
+  font-size: 30px; /* Larger font size for emphasis */
+}
+
+.styled-rock, .styled-paper, .styled-scissor {
+  width: 100px; /* Set a fixed width */
+  height: 100px; /* Set a fixed height equal to width for a circle */
+  border: 3px solid black;
+  
+  justify-content: center; /* Center the content horizontally */
+  align-items: flex-end; /* Align the text at the bottom */
+  font-weight: bold; /* Make text bold */
+  padding-bottom: 10px; /* Add padding to push text upwards */
+  text-align: center; /* Center text */
+  
+}
+
+/* Specific styles for each button */
+.styled-rock {
+  background-image: url(images/rock.jpg);
+  padding: 75px 78px;
+  border-radius: 77px;
+  color: #03001C;
+  
+  
+}
+
+.styled-paper {
+  background-image: url(images/paper.jpg);
+  padding: 75px 75px;
+  border-radius: 75px;
+  color: #FFEC9E;
+}
+
+.styled-scissor {
+  background-image: url(images/scissor.jpg);
+  padding: 75px 78px;
+  border-radius: 75px;
+  color: #0B192C;
+}
+
+
+/* Styling for Scissors button */
+.styled-click {
+  background-color: green; /* Same styling as Rock button */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  
+}
+
+.styled-text{
+  color: aqua;
+}
+.styled-move{
+  color: #3F2305;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+.styled-score{
+  color: #FFB22C;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+.styled-result{
+  color: #00712D;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+.styled-reset{
+  border: none;
+  color: white;
+  background-color: red;
+  border-radius: 15px;
+  padding: 8px 8px;
+}
